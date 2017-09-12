@@ -64,8 +64,9 @@ feed:
 
 # Plugins
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
-gems:
- - jemoji
+plugins:
+# jemoji conficts with toc in some no-ascii post
+# - jemoji
  - jekyll-sitemap
  - jekyll-feed
 
@@ -381,6 +382,9 @@ disqus:
   enable: false
   shortname:
   count: true
+  # hide comments (visitors need to click to load the comments)
+  # count need to be false when hide is true
+  hide: false
 
 # Hypercomments
 #hypercomments_id:
