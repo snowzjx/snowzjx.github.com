@@ -1,7 +1,7 @@
 ---
 type: photo
 title: City View From Lion Rock, HK
-date: 2017-08-10 22:30:00
+date: 2017-09-10 22:30:00
 category: Photography
 photos:
 - /assets/post_images/lion_rock/DSC04548-Edit.jpg
